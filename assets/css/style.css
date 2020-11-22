@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,700;1,400&family=Roboto:wght@100;300;400;500;700&family=Space+Mono:wght@400;700&display=swap');
+
+/* GENERAL STYLES */
+
+
+body {
+    font-family:'Roboto', sans-serif;
+    letter-spacing: 2px;
+    background-color: #fafafa;
+}
+
+h1,
+h2,
+h3,
+h4{ font-family:'Space Mono', monospace;
+}
+
+p{ letter-spacing: normal;
+}
+
+
+/* INTRO SECTION */
+
+
+.intro {
+
+background-color: darkgrey;
+color: black;
+padding: 2rem;
+
+}
+
+
+/* MEET SECTION */
+
+
+#meet {
+margin-top: 3rem;
+}
+
+.meet-heading{
+padding: 2rem;
+}
+
+.meet-container{
+    margin-bottom:2rem;
+}
+
+
+
+
+
+/* ------------------------------------------------Navbar menu */
+.bg-dark{
+background-color:black !important;
+margin-top: 2rem;
+
+}
+
+.nav-item a {
+font-family:'Space Mono', monospace;
+font-weight:500;
+
+}
+
+.navbar ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: nowrap; }
+
+
+/* ------------------------------------------------Home */
+
+
+.jumbotron-fluid {
+    height: 80vh;
+    background: url("../images/rec.png") no-repeat top center; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin-bottom: 0;
+}
+
+
+
+
+
+
+/* Media Queries */
+
+
+
+
+ /* Big devices Desktop  */
+
+
+@media (min-width: 992px){
+
+div.container{
+
+    padding-left: 0.5rem;
+    padding-right: 1rem;
+
+}   
+
+a.nav-link  {
+        margin-left : 0.5rem;
+        margin-right : 0.5rem;
+    }
+img.img-responsive {
+    width: 8rem;
+    height: 8rem;
+    }
+
+.navbar {height: 80px;
+}
+
+}
+
+
+ /* Medium devices (iPad etc.) */
+
+@media (min-width: 768px) and (max-width: 991px){
+
+a.nav-link {
+    padding-right: 0rem;
+    padding-left: 0.5rem;
+    font-size: 90%;
+    }
+
+}
+
+
+/* Small devices (landscape phones, 576px and up) */
+@media (max-width: 767px) and (min-width: 576px){
+
+
+a.nav-link {
+    padding-left: 0.5rem;
+    padding-right: 0.3rem;
+    font-size: 80%;
+    }
+
+
+}
+
+
+  
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575px) {
+
+a.nav-link {
+    padding-left: 0.5rem;
+    padding-right: 0.3rem;
+    font-size: 80%;
+    }
+
+
+}
+    
+    
+
