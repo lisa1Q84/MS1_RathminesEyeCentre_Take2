@@ -18,13 +18,13 @@ h4{ font-family:'Space Mono', monospace;
 p{ letter-spacing: normal;
 }
 
-/* HOME SECTION */
+/* ------------------------------------------------Home Section */
 
 
 .intro {
 
-background-color: darkgrey;
-color: black;
+background-color:#1c6cd4;
+color: #fafafa;
 padding: 2rem;
 
 }
@@ -33,7 +33,7 @@ padding: 2rem;
 
 /* ------------------------------------------------Navbar menu */
 .bg-dark{
-background-color:black !important;
+background-color: black !important;
 margin-top: 2rem;
 
 }
@@ -51,6 +51,7 @@ font-weight:500;
   flex-direction: row;
   justify-content: space-around;
   flex-wrap: nowrap; }
+
 
 
 /* ------------------------------------------------Home */
@@ -88,9 +89,52 @@ padding: 2rem;
 
 
 
+/* ------------------------------------------------Services */
+
+#services{
+    margin-top:3rem;
+}
+
+.service-container{
+    margin:1rem;
+}
+
+img#repairicon {
+    margin-bottom: 2rem;
+    width: 40% !important;
+}
+
+img#brilleicon {
+    margin-bottom: 2rem;
+}
+
+img#lenseicon{
+    margin-bottom: 2rem;
+}
+
+.center{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
 
 
-/* ------------------------------------------------Media Queries */
+
+.carousel-caption {
+ background: rgba(0, 0, 0, 0.7);
+transform: translateY(-50%);
+  bottom: 0;
+  top: 50%; }
+
+.blockquote-footer {
+    color: #1c6cd4;
+}
+
+
+
+
+/* ------------------------------------------------ Media Queries */
 
 
 
