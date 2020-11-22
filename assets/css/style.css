@@ -18,8 +18,7 @@ h4{ font-family:'Space Mono', monospace;
 p{ letter-spacing: normal;
 }
 
-
-/* INTRO SECTION */
+/* HOME SECTION */
 
 
 .intro {
@@ -29,24 +28,6 @@ color: black;
 padding: 2rem;
 
 }
-
-
-/* MEET SECTION */
-
-
-#meet {
-margin-top: 3rem;
-}
-
-.meet-heading{
-padding: 2rem;
-}
-
-.meet-container{
-    margin-bottom:2rem;
-}
-
-
 
 
 
@@ -90,11 +71,26 @@ font-weight:500;
 }
 
 
+/* ------------------------------------------------Meet */
+
+
+#meet {
+margin-top: 3rem;
+}
+
+.meet-heading{
+padding: 2rem;
+}
+
+.meet-container{
+    margin-bottom:2rem;
+}
 
 
 
 
-/* Media Queries */
+
+/* ------------------------------------------------Media Queries */
 
 
 
@@ -124,6 +120,7 @@ img.img-responsive {
 }
 
 }
+
 
 
  /* Medium devices (iPad etc.) */
