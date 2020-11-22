@@ -119,13 +119,21 @@ img#lenseicon{
   width: 50%;
 }
 
+/* ------------------------------------------------Carousel */
+
+
 
 
 .carousel-caption {
  background: rgba(0, 0, 0, 0.7);
 transform: translateY(-50%);
   bottom: 0;
-  top: 50%; }
+  top: 50%; 
+}
+
+.carousel-caption p{
+    font-size:12px;
+}
 
 .blockquote-footer {
     color: #1c6cd4;
@@ -139,22 +147,21 @@ transform: translateY(-50%);
 
 
 
- /* Big devices Desktop  */
+ /* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
 
-
-@media (min-width: 992px){
+/* ------------------------------------------------ Nav Bar */
 
 div.container{
-
     padding-left: 0.5rem;
     padding-right: 1rem;
-
 }   
 
 a.nav-link  {
         margin-left : 0.5rem;
         margin-right : 0.5rem;
     }
+
 img.img-responsive {
     width: 8rem;
     height: 8rem;
@@ -163,13 +170,20 @@ img.img-responsive {
 .navbar {height: 80px;
 }
 
+
+/* ------------------------------------------------Carousel */
+
+.carousel-caption p{
+    font-size:20px;
 }
 
+}
 
+/* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
+@media (min-width: 768px) and (max-width:991px) { 
 
- /* Medium devices (iPad etc.) */
+/* ------------------------------------------------ Nav Bar */
 
-@media (min-width: 768px) and (max-width: 991px){
 
 a.nav-link {
     padding-right: 0rem;
@@ -177,11 +191,24 @@ a.nav-link {
     font-size: 90%;
     }
 
+
+
+/* ------------------------------------------------Carousel */
+
+
+.carousel-caption p{
+    font-size:18px;
+}
+
+
+
 }
 
 
 /* Small devices (landscape phones, 576px and up) */
-@media (max-width: 767px) and (min-width: 576px){
+@media (min-width: 576px) and (max-width:767px) { 
+
+/* ------------------------------------------------ Nav Bar */
 
 
 a.nav-link {
@@ -190,23 +217,20 @@ a.nav-link {
     font-size: 80%;
     }
 
+.carousel-caption p{
+    font-size:12px;
+}
+
 
 }
 
+/* 
+Extra small devices (portrait phones, less than 576px) 
+No media query since this is the default in Bootstrap because it is "mobile first"
+*/
 
   
 
-/* Extra small devices (portrait phones, less than 576px) */
-@media (max-width: 575px) {
-
-a.nav-link {
-    padding-left: 0.5rem;
-    padding-right: 0.3rem;
-    font-size: 80%;
-    }
-
-
-}
     
     
 
