@@ -160,6 +160,16 @@ transform: translateY(-50%);
     padding-top: 5rem;
 }
 
+img#glassesphoto {
+    width:50%;
+    height:auto;
+}
+
+img#lensesphoto {
+    width:47%;
+    height:auto;
+}
+
 
 /* ------------------------------------------------Contact us */
 
@@ -176,7 +186,6 @@ transform: translateY(-50%);
 
 
 .opening-hours{
-    padding-top: 5rem;
     padding-left: 1rem;
     text-align: left;
 }
