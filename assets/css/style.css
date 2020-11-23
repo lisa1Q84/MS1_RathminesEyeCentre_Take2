@@ -163,6 +163,34 @@ transform: translateY(-50%);
 
 
 
+.form-container{
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+.opening-hours{
+    padding-top: 10rem;
+    padding-left: 15rem;
+    text-align: left;
+}
+
+.opening-hours h1{
+        padding-bottom: 1rem;
+
+}
+
+
+.location h1{
+
+    text-align:center;
+    padding-bottom: 1rem;
+}
+
+.location p{
+
+    text-align:center;
+
+}
 
 
 /* ------------------------------------------------ Media Queries ---------------------------------------------------------- */
