@@ -7,6 +7,8 @@ body {
     font-family:'Roboto', sans-serif;
     letter-spacing: 2px;
     background-color: #fafafa;
+    overflow-x: hidden; /* Hide horizontal scrollbar */
+
 }
 
 h1,
@@ -17,6 +19,8 @@ h4{ font-family:'Space Mono', monospace;
 
 p{ letter-spacing: normal;
 }
+
+
 
 /* ------------------------------------------------Home Section */
 
@@ -77,6 +81,7 @@ font-weight:500;
 
 #meet {
 margin-top: 3rem;
+padding:3rem;
 }
 
 .meet-heading{
@@ -84,15 +89,20 @@ padding: 2rem;
 }
 
 .meet-container{
-    margin-bottom:2rem;
+margin-bottom:2rem;
 }
 
 
 
 /* ------------------------------------------------Services */
+.Services{
+    border:2px solid Black;
+}
+
 
 #services{
     margin-top:3rem;
+    padding-top:3rem;
 }
 
 .service-container{
@@ -138,6 +148,24 @@ transform: translateY(-50%);
 .blockquote-footer {
     color: #1c6cd4;
 }
+
+
+
+
+.product-container{
+
+    margin: 3rem;
+    padding:1.5rem;
+}
+
+.Products {
+
+border:3px solid black;
+}
+
+
+
+
 
 
 
@@ -221,6 +249,9 @@ a.nav-link {
     font-size:12px;
 }
 
+.hide-scrollbar-sm {
+      overflow-x: hidden;
+   }
 
 }
 
