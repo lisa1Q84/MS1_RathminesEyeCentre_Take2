@@ -36,7 +36,7 @@
                         <a class="nav-link" href="#home">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#meet-anchor">The Optician</a>
+                        <a class="nav-link" href="#meet">The Optician</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#services">Services</a>
@@ -45,10 +45,10 @@
                         <a class="nav-link" href="#products">Products</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#contact us">Contact Us</a>
-                    </li>
-                     <li class="nav-item">
                         <a class="nav-link" href="#faqs">FAQ's</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact-us">Contact Us</a>
                     </li>
                 </ul>
 
@@ -66,8 +66,6 @@
             </div>
 
             <div class="intro container-fluid">
-                            <a id="meet-anchor"></a>
-
                 <p class="lead intro-text text-center">
                     Rathmines Eye Centre is a modern eyecare practice centrally located in Dublin 6. Our aim is to provide you and your family with the highest quality eyecare and service when you choose us as your optician.
                     We provide a top quality service complete with eye examinations as well as the latest styles in eye glasses and contact lenses.
@@ -123,7 +121,7 @@
 
         <!-- Customer Carousel Section -->
 
-                <section id="myCarousel" class="carousel slide" data-ride="carousel">
+                <section id="carousel" class="carousel slide" data-ride="carousel">
 
                      <ol class="carousel-indicators">
                         <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
@@ -133,7 +131,7 @@
 
                     <div class="carousel-inner">
                             <div class="carousel-item active">
-                            <img src="assets/images/carousel1.jpg" class="bd-placeholder-img" width="100%" height="500px" xmlns="http://www.w3.org/2000/svg" focusable="false" role="img">
+                            <img src="assets/images/carousel1.jpg" class="bd-placeholder-img" width="100%" height="500px">
                             <div class="container">
                                 <div class="carousel-caption text-center">
                                     <blockquote class="blockquote text-center">
@@ -148,7 +146,7 @@
                             
 
                         <div class="carousel-item">
-                            <img src="assets/images/carousel2.jpg" class="bd-placeholder-img" width="100%" height="500px" xmlns="http://www.w3.org/2000/svg" focusable="false" role="img">
+                            <img src="assets/images/carousel2.jpg" class="bd-placeholder-img" width="100%" height="500px">
                                 <div class="container">
                                     <div class="carousel-caption">
                                         <blockquote class="blockquote text-center">
@@ -161,7 +159,7 @@
                         </div>
 
                         <div class="carousel-item">
-                            <img src="assets/images/carousel3.jpg" class="bd-placeholder-img" width="100%" height="500px" xmlns="http://www.w3.org/2000/svg" focusable="false" role="img">
+                            <img src="assets/images/carousel3.jpg" class="bd-placeholder-img" width="100%" height="500px">
                                 <div class="container">
                                     <div class="carousel-caption">
                                     <blockquote class="blockquote text-center">
@@ -185,11 +183,11 @@
                     </div>
                 </section>
 
-        <!-- Philosophy Section -->
+        <!-- Products Section -->
     
                 <section class="Products" id="products">
                                 <div class="product-container">
-                                    <h1 class="text-center pb-5">Our Products</h1>
+                                    <h1 class="text-center">Our Products</h1>
                                 <div class="row">
                                     <div class="col-sm-6">
                                         <img src="assets/images/model-glasses.jpg" id="glassesphoto" class="mx-auto d-block" alt="Model with Glasses" width="auto" height="500px" >
@@ -197,7 +195,7 @@
                                             <p> Basic Glasses:  Basic complete specs from €49 </p>
                                             <p>Sun Glasses: Basic sunglasses from €49 Most of our sun frames can be glazed with prescription lenses with NO EXTRA CHARGE. </p>
                                             <p> Designer Glasses: Guess|Gant|Tommy Hilfiger|Kangol|Emporio Armani|Vogue|Prada|Espirit|Prodesign Denmark|Timberland|Jeff Banks|Terence Conran|Lacoste.</p>  
-                                        <h2> Our Lenses </h2>     
+                                        <h2 class="text-center"> Our Lenses </h2>     
                                             <p> White single vision lenses with anti- scratch coating are free with every frame purchased in Rathmines Eye Centre. 
                                                 However, we often recommend our customers additional features with their lenses, depending on their personal requirements.
                                                 When it comes to tints, we recommend Anti-reflective (anti- glare) coating for computer use and night time driving.
@@ -222,8 +220,7 @@
 
     <!-- FAQ -->
                 
-                <section class="py-5 gray-bg">
-                    <a id="faq"></a>
+                <section id="faqs" class="py-5 gray-bg">
                     <div class="container">
                         <div class="row pb-3">
                             <h2 class="px-3">Frequently Asked Questions</h2>
@@ -356,9 +353,56 @@
                     </div>
         </section>
 
+         <!-- Contact Section -->
+
+        <section class="contact" id="contact-us">
+                <div class="container contact-form">
+                    <div class="card">
+                        <div class="card-header">
+                            <h2>Contact Us</h2>
+                        </div>
+                            <div class="card-block">
+                                <form role="form">     
+                                        <div class="form-group col-lg-4">
+                                            <label class="form-control-label" for="form-group-input">Name</label>
+                                            <input type="text" class="form-control"  name="name">
+                                        </div>  
+                                    <div class="form-group col-lg-4">
+                                        <label class="form-control-label" for="form-group-input">Email</label>
+                                            <input type="text" class="form-control"  name="email">
+                                    </div>
+
+                                    <div class="form-group col-lg-4">
+                                        <label class="form-control-label" for="form-group-input">Phone</label>
+                                            <input type="number" class="form-control" name="phone">
+                                    </div>
+
+                                    <div class="form-group col-lg-4">
+                                        <label class="form-control-label" for="form-group-input">Reason</label>
+                                            <select size="0" class="form-control" name="reason">
+                                                <option>Make an Appointment</option>
+                                                <option>Re-Order Contact Lenses</option>
+                                                <option>General Query</option>
+                                            </select>
+                                    </div>
+
+                                    <div class="form-group col-lg-12">
+                                        <label class="form-control-label" for="form-group-input">Message</label>
+                                        <textarea class="form-control" name="notes" rows="6"></textarea>
+                                
+                                        <button type="submit" class="btn btn-submit btn-info w-75">Submit</button>
+
+                                    </div>
+                                </form>
+                            </div>
+                    </div>
+                </div>
+        </section>
+
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
 </body>
 </html>
