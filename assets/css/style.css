@@ -26,13 +26,10 @@ p{ letter-spacing: normal;
 
 
 .intro {
-
-background-color:#1c6cd4;
-color: #fafafa;
-padding: 2rem;
-
+    background-color: #367dbd;
+    padding: 2rem;
+    color: #fafafa;
 }
-
 
 
 /* ------------------------------------------------Navbar menu */
@@ -98,7 +95,7 @@ margin-bottom:2rem;
 
 
 #services{
-    margin-top:3rem;
+    margin-top:2rem;
     padding-top:3rem;
 }
 
@@ -131,6 +128,16 @@ padding-top: 2rem;
   width: 50%;
 }
 
+
+h1.services.text-center {
+    padding: 3rem;
+    margin-bottom: 6rem;
+    background-color: #367dbd;
+    color: #fafafa;
+}
+
+
+
 /* ------------------------------------------------Carousel */
 
 
@@ -143,11 +150,17 @@ transform: translateY(-50%);
 }
 
 .carousel-caption p{
-    font-size:12px;
+    font-size:10px;
 }
 
 .blockquote-footer {
     color: #1c6cd4;
+    font-size:10px;
+
+}
+section#myCarousel{
+    margin-top:3rem;
+    padding-top:3rem;
 }
 
 
@@ -168,6 +181,11 @@ img#glassesphoto {
 img#lensesphoto {
     width:47%;
     height:auto;
+}
+
+h1.products.text-center{
+
+padding: 3rem;
 }
 
 
@@ -208,6 +226,51 @@ img#lensesphoto {
 
 }
 
+.card h2{
+    color: #367dbd;
+    padding: 1rem;
+}
+
+button.btn.btn-submit {
+    background-color:#367dbd;
+    margin-top: 1rem;
+
+}
+
+div.card-header{
+    margin-bottom: 1rem;
+
+}
+
+.opening-hours{
+    text-align:center;
+}
+
+
+/* ------------------------------------------------Footer */
+
+
+
+
+
+
+.footerleft{
+background-color: #367dbd;
+    color: #fafafa;
+    font-family: 'Space Mono';
+    text-align: center;
+    padding: 1.5rem;
+}
+
+.footerright{
+    padding: 1.5rem;
+}
+
+.footerright h5{
+    margin-bottom:1rem;
+    color:#367dbd;
+}
+
 
 /* ------------------------------------------------ Media Queries ---------------------------------------------------------- */
 
@@ -243,6 +306,10 @@ img.img-responsive {
 .carousel-caption p{
     font-size:20px;
 }
+.blockquote-footer {
+    color: #1c6cd4;
+    font-size:13px;
+
 
 }
 
@@ -267,7 +334,10 @@ a.nav-link {
     font-size:18px;
 }
 
-
+.blockquote-footer {
+    color: #1c6cd4;
+    font-size:13px;
+}
 
 }
 
@@ -288,9 +358,12 @@ a.nav-link {
     font-size:12px;
 }
 
-.hide-scrollbar-sm {
-      overflow-x: hidden;
-   }
+
+
+.blockquote-footer {
+    color: #1c6cd4;
+    font-size:10px;
+
 
 }
 
