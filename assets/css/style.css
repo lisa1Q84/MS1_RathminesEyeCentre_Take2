@@ -151,16 +151,17 @@ transform: translateY(-50%);
 }
 
 
-/* ------------------------------------------------Carousel */
+/* ------------------------------------------------Products */
 
 
 .product-container{
 
     margin: 3rem;
-    padding:1.5rem;
+    padding-top: 5rem;
 }
 
 
+/* ------------------------------------------------Contact us */
 
 
 .form-container{
@@ -168,9 +169,15 @@ transform: translateY(-50%);
     padding-bottom: 5rem;
 }
 
+.contact {
+    padding-top:5rem;
+}
+
+
+
 .opening-hours{
-    padding-top: 10rem;
-    padding-left: 15rem;
+    padding-top: 5rem;
+    padding-left: 1rem;
     text-align: left;
 }
 
