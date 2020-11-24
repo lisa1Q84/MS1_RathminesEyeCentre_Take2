@@ -1,24 +1,33 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,700;1,400&family=Roboto:wght@100;300;400;500;700&family=Space+Mono:wght@400;700&display=swap');
 
-/* GENERAL STYLES */
+/* ------------------------------------------------ General Styles */
 
 
 body {
     font-family:'Roboto', sans-serif;
+    font-size:12px;
     letter-spacing: 2px;
     background-color: #fafafa;
     overflow-x: hidden; /* Hide horizontal scrollbar NOT WORKING */
 
 }
 
+
+p{ 
+    letter-spacing: normal;
+}
+
 h1,
 h2,
 h3,
-h4{ font-family:'Space Mono', monospace;
-}
+h4  { 
+    font-family:'Space Mono', monospace;
 
-p{ letter-spacing: normal;
-}
+    }
+
+img {
+    max-width: 100%; 
+    height: auto;}
 
 
 
@@ -35,14 +44,14 @@ p{ letter-spacing: normal;
 /* ------------------------------------------------Navbar menu */
 
 .bg-dark{
-background-color: black !important;
-margin-top: 2rem;
+    background-color: black !important;
+    margin-top: 2rem;
 
 }
 
 .nav-item a {
-font-family:'Space Mono', monospace;
-font-weight:500;
+    font-family:'Space Mono', monospace;
+    font-weight:400;
 
 }
 
@@ -60,7 +69,7 @@ font-weight:500;
 
 .jumbotron-fluid {
     height: 80vh;
-    background: url("../images/rec-cropped.png") no-repeat top center; 
+    background: url("../images/Irineuimage.jpeg") no-repeat top center; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -69,27 +78,32 @@ font-weight:500;
     align-items: center;
     justify-content: center;
     position: relative;
-    margin-bottom: 0;
-}
+    margin-bottom: 0; 
+} 
+
+
 
 
 /* ------------------------------------------------Meet */
 
 
 #meet {
-margin-top: 3rem;
-padding:3rem;
-}
+    margin-top: 3rem;
+    padding:3rem;
+    }
 
 .meet-heading{
-padding: 2rem;
-}
+    padding: 2rem;
+    }
 
 .meet-container{
-margin-bottom:2rem;
-}
+    margin-bottom:2rem;
+    }
 
-
+img#optician-photo.img-fluic{
+    width:350px;
+    height:auto;
+    }
 
 /* ------------------------------------------------Services */
 
@@ -117,15 +131,15 @@ img#lenseicon{
 }
 
 h2.text-center{
-padding-top: 2rem;
+    padding-top: 2rem;
 
 }
 
 .center{
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
 
 
@@ -140,17 +154,21 @@ h1.services.text-center {
 
 /* ------------------------------------------------Carousel */
 
+img.carousel-img{
+    width:100%;
+    height:500px;
 
+}
 
 .carousel-caption {
- background: rgba(0, 0, 0, 0.7);
-transform: translateY(-50%);
-  bottom: 0;
-  top: 50%; 
+    background: rgba(0, 0, 0, 0.9);
+    transform: translateY(-50%);
+    bottom: 0;
+    top: 50%; 
 }
 
 .carousel-caption p{
-    font-size:10px;
+    font-size:12px;
 }
 
 .blockquote-footer {
@@ -185,9 +203,15 @@ img#lensesphoto {
 
 h1.products.text-center{
 
-padding: 3rem;
+    padding: 3rem;
 }
 
+.special-offers{
+    border-style: solid double;
+    border-color: red;
+    padding: 0.3rem;
+
+}
 
 /* ------------------------------------------------Contact us */
 
@@ -209,7 +233,8 @@ padding: 3rem;
 }
 
 .opening-hours h1{
-        padding-bottom: 1rem;
+    padding-bottom: 1rem;
+    padding-top: 2rem;
 
 }
 
@@ -218,6 +243,7 @@ padding: 3rem;
 
     text-align:center;
     padding-bottom: 1rem;
+    padding-top: 2rem;
 }
 
 .location p{
@@ -244,7 +270,13 @@ div.card-header{
 
 .opening-hours{
     text-align:center;
+
 }
+
+
+iframe{
+    width:100% ;
+    height:auto;}
 
 
 /* ------------------------------------------------Footer */
@@ -255,7 +287,7 @@ div.card-header{
 
 
 .footerleft{
-background-color: #367dbd;
+    background-color: #367dbd;
     color: #fafafa;
     font-family: 'Space Mono';
     text-align: center;
@@ -264,11 +296,13 @@ background-color: #367dbd;
 
 .footerright{
     padding: 1.5rem;
+    border-style: solid;
 }
 
 .footerright h5{
     margin-bottom:1rem;
     color:#367dbd;
+    
 }
 
 
@@ -280,6 +314,12 @@ background-color: #367dbd;
  /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) { 
 
+
+body{
+        font-size:14px;
+    }
+
+    
 /* ------------------------------------------------ Nav Bar */
 
 div.container{
@@ -288,8 +328,8 @@ div.container{
 }   
 
 a.nav-link  {
-        margin-left : 0.5rem;
-        margin-right : 0.5rem;
+    margin-left : 0.5rem;
+    margin-right : 0.5rem;
     }
 
 img.img-responsive {
@@ -297,7 +337,22 @@ img.img-responsive {
     height: 8rem;
     }
 
-.navbar {height: 80px;
+.navbar {
+    height: 80px;
+}
+
+
+
+/* ------------------------------------------------Meet */
+
+
+.flexbox {
+  display: flex;
+  flex-direction: row;
+}
+  
+.optician {
+  order: 2;
 }
 
 
@@ -308,13 +363,25 @@ img.img-responsive {
 }
 .blockquote-footer {
     color: #1c6cd4;
-    font-size:13px;
+    font-size:14px;}
 
 
 }
 
+
+
+
+
+
+
+
 /* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
 @media (min-width: 768px) and (max-width:991px) { 
+
+body{
+    font-size:14px;
+    }
+
 
 /* ------------------------------------------------ Nav Bar */
 
@@ -322,7 +389,7 @@ img.img-responsive {
 a.nav-link {
     padding-right: 0rem;
     padding-left: 0.5rem;
-    font-size: 90%;
+    font-size: 14px;
     }
 
 
@@ -336,7 +403,7 @@ a.nav-link {
 
 .blockquote-footer {
     color: #1c6cd4;
-    font-size:13px;
+    font-size:14px;
 }
 
 }
@@ -346,6 +413,7 @@ a.nav-link {
 @media (min-width: 576px) and (max-width:767px) { 
 
 /* ------------------------------------------------ Nav Bar */
+
 
 
 a.nav-link {
@@ -367,13 +435,17 @@ a.nav-link {
 
 }
 
-/* 
-Extra small devices (portrait phones, less than 576px) 
-No media query since this is the default in Bootstrap because it is "mobile first"
-*/
+/* ------------------------------------------------ Meet Section */
 
+
+.flexbox {
+  display: flex;
+  flex-direction: column;
+}
   
+.optician {
+  order: 2;
+  }
 
-    
-    
+}
 
