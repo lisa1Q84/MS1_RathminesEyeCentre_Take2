@@ -4,27 +4,27 @@
 
 # Table of content:
 
-   [Description](https://github.com/lisa1Q84/MS1_RathminesEyeCentre_Take2/master/README.md#description)
--   [User Experience](https://github.com/lisa1Q84/MS1_RathminesEyeCentre_Take2/master/README.md#user-experience)
+   [Description]
+-   [User Experience]
     -   User Stories
     -   Strategy
     -   Scope
     -   Structure
     -   Look
     -   Surface
--   [Technologies](https://github.com/lisa1Q84/MS1_RathminesEyeCentre_Take2/master/README.md#technologies)
--   [Testing](https://github.com/lisa1Q84/MS1_RathminesEyeCentre_Take2/master/README.md#testing)
--   [Bugs](https://github.com/lisa1Q84/MS1_RathminesEyeCentre_Take2/master/README.md#bugs)
--   [Deployment](https://github.com/lisa1Q84/MS1_RathminesEyeCentre_Take2/master/README.md#deployment)
--   [Credits](https://github.com/lisa1Q84/MS1_RathminesEyeCentre_Take2/master/README.md#credits)
+-   [Technologies]
+-   [Testing]
+-   [Bugs]
+-   [Deployment]
+-   [Credits]
 
-## [](https://github.com/lisa1Q84/MS1_RathminesEyeCentre_Take2/master/README.md#description)Description
+## Description
 
 Rathmines Eye Centre is an optician in Dublin 6. Their website is meant to showcase their services and products and offer customers a way to get in touch and book appointments. Their old website deserves an upgrade which is why this project was taken on. The current website can be viewed [[here]](http://www.rathmineseyecentre.com/).
 
 The newly created live site can be viewed  [\[here\]](https://lisa1q84.github.io/MS1_RathminesEyeCentre_Take2/). This site was designed as a project to be submitted for grading in the first milestone project in Full Stack Software Development with the Code Institute.
 
-## [](https://github.com/lisa1Q84/MS1_RathminesEyeCentre_Take2/master/README.md#user-experience)User Experience
+## User Experience
 
 ----------
 
@@ -137,7 +137,7 @@ Imagery:
 -  I will use an image I took myself of the storefront  of the Rathmines Eye Centre, a photo of the optician from their facebook page ( we did not manage to take a fresh one) as well as generic images containing glasses and lenses from websites offering free stock images. I mentioned the creators in the credit section below.
 
 
-## [](https://github.com/lisa1Q84/MS1_RathminesEyeCentre_Take2/master/README.md#technologies)Technologies
+## Technologies
 
 -   HTML5 – I used HTML to create the websites main structures
 -   CSS3. – I used CSS to style the components created with HTML 
@@ -152,11 +152,11 @@ Imagery:
 - The Rathmines Eye Centre Logo was created with https://www.canva.com/ as they had none.
 
 
-## [](https://github.com/lisa1Q84/MS1_RathminesEyeCentre_Take2/master/README.md#testing)Testing
+## Testing
 
 All testing was documented in a separate filed that can be accessed [here.](https://github.com/lisa1Q84/MS1_RathminesEyeCentre_Take2/blob/master/TESTING.md)
 
-## [](https://github.com/lisa1Q84/MS1_RathminesEyeCentre_Take2/master/README.md#bugs)Bugs
+## Bugs
 
 Bug: Scrollbar on the bottom when in the mobile view. Fixed this by moving the image width and height to CSS and by making them smaller. 
 
@@ -168,7 +168,7 @@ Bug: On creating a parallax effect for the background when scrolling rather than
 Fix: Changed position on the ‘sales-pitch’ element from ‘absolute’ to ‘relative’.
 
 
-## [](https://github.com/lisa1Q84/MS1_RathminesEyeCentre_Take2/master/README.md#deployment)Deployment
+## Deployment
 
 The following steps were taken to deploy the website.
 
@@ -205,7 +205,7 @@ https://github.com/lisa1Q84/MS1_RathminesEyeCentre_Take2
 8.  Press enter to create you local clone.
 9.  Happy Coding!
 
-## [](https://github.com/lisa1Q84/MS1_RathminesEyeCentre_Take2/master/README.md#credits)Credits
+## Credits
 
 **Code used**
 
