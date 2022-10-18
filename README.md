@@ -189,13 +189,13 @@ Run in Gitpod:
 2.  Install the gitpod browser extension for Chrome browser.
 3.  Restart the Chrome browser.
 4.  Log into  [GitPod](https://www.gitpod.io/)  using your GitHub account.
-5.  Next open GitHub and locate the DoggyStyle repository for the website at  [https://github.com/raymondkeogh/doggystyle](https://github.com/raymondkeogh/doggystyle)
+5.  Next open GitHub and locate the repository for the website at  [https://github.com/lisa1Q84/MS1_RathminesEyeCentre_Take2](https://github.com/lisa1Q84/MS1_RathminesEyeCentre_Take2)
 6.  Click on the green GitPod button in the top right hands side of the screen.
-7.  This will open a new GitPod workspace with the DoggyStyle respository files in it.
+7.  This will open a new GitPod workspace with the MS1_RathminesEyeCentre_Take2 respository files in it.
 
 Run in Local IDE:
 
-1.  GitHub and locate the DoggyStyle repository for the website. The link is here:
+1.  GitHub and locate the MS1_RathminesEyeCentre_Take2 repository for the website. The link is here:
 https://github.com/lisa1Q84/MS1_RathminesEyeCentre_Take2
 3.  Click on the the button near the top of the page that says "Code"
 4.  In the box that pops up under the HTTPS section copy the URL.
